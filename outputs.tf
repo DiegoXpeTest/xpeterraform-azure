@@ -43,3 +43,12 @@ output "rg-scxpesailpointprd-location" {
   value       = module.rg-scxpesailpointprd.resource_group_location
 }
 
+output "vm-scxpesailpointqa-ip" {
+  description = "IP de la vm scxpesailpointqa"
+  value       = module.vm-scxpesailpointqa.private_ip_address
+}
+
+output "vm-scxpesailpointprd-ip" {
+  description = "IP de la vm scxpesailpointprd"
+  value       = module.vm-scxpesailpointprd.private_ip_address
+}
